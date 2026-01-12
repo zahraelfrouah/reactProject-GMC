@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import BasicExample from './componenets/BasicExample';
+import KitchenSinkExample from './componenets/KitchenSinkExample';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <BasicExample />
+    <KitchenSinkExample />
   </React.StrictMode>
 );
 
